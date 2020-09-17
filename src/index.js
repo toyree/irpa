@@ -22,9 +22,9 @@ app.options('*', function(req, res) {
 });
 
 server.listen(port, (err) => {
-	if (err) {
-		throw err;
-	}
+//if (err) {
+//	throw err;
+//}
 	/* eslint-disable no-console */
 	console.log('Node Endpoints working :)');
 });
