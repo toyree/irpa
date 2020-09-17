@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 var server = require('http').Server(app);
-var port = 80;
+var port = process.env.PORT || 3000;
 var helmet = require('helmet');
 
 app.use(helmet());
