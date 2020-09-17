@@ -4,8 +4,7 @@
   "description": "",
   "main": "Express API Test.js",
   "scripts": {
-    "start": "node src/index.js",
-    "build": "webpack"
+    "start": "src/index.js"
   },
   "engines": {
     "node": "8"
