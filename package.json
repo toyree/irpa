@@ -7,6 +7,9 @@
     "start": "node src/index.js",
     "build": "webpack"
   },
+  "engines": {
+    "node": "8"
+  },
   "author": "Shinapat K.",
   "license": "ISC",
   "dependencies": {
