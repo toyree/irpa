@@ -32,17 +32,18 @@ server.listen(port, (err) => {
 module.exports = server;
 
 app.all('/', (req, res) => {
-	if (req.method === 'GET') {
-		console.log(req.body);
-		res.status(200);
-		res.send(`GET Request Success!!!`);
-	} else if (req.method === 'POST') {
+	//if (req.method === 'GET') {
+	//	console.log(req.body);
+	//	res.status(200);
+	//	res.send(`GET Request Success!!!`);
+	//}  
+	if (req.method === 'POST') {
 		console.log(req.body);
 		res.status(200);
 		res.send(`${req.body.input.InputSuccess} is the Best!!!`);
-	} else if (req.method === 'PUT') {
-		console.log(req.body);
-		res.status(200);
-		res.send(`PUT Request Success!!!`);
+	//} else if (req.method === 'PUT') {
+	//	console.log(req.body);
+	//	res.status(200);
+	//	res.send(`PUT Request Success!!!`);
 	}
 });
